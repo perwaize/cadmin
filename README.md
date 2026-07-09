@@ -1,169 +1,153 @@
-# cadmin
+$ java LdapRoleTest
+Connecting to ldap://ad-ldap-app.uhc.com:389 as cn=wsbindtst,CN=Users,dc=ms,dc=ds,dc=uhc,dc=com ...
+Bind succeeded.
 
-org.apache.catalina.realm.JNDIRealm.level = FINE
-org.apache.catalina.realm.level = FINE
+Searching base: CN=Users,dc=ms,dc=ds,dc=uhc,dc=com
+Filter:         (&(objectClass=group)(member=CN=pahmed1,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com))
 
+  MATCH: CN=F_Wireless_Access,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=F_Wireless_Access
+  MATCH: CN=RXSOL_WAS_Admin,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=RXSOL_WAS_Admin
+  MATCH: CN=VDI_2FactorAuth_Int,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=VDI_2FactorAuth_Int
+  MATCH: CN=EDR_DRP_Read_Tech,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=EDR_DRP_Read_Tech
+  MATCH: CN=EDR_DRP_Update_Tech,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=EDR_DRP_Update_Tech
+  MATCH: CN=ASAM_Developer_Elevation,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=ASAM_Developer_Elevation
+  MATCH: CN=WAS_ADMIN_eBiz,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=WAS_ADMIN_eBiz
+  MATCH: CN=RenewalReminderNotice_Venafi,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=RenewalReminderNotice_Venafi
+  MATCH: CN=RenewalReminderNotice_Venafi_Read,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=RenewalReminderNotice_Venafi_Read
+  MATCH: CN=Distro_MiddlewareTechnologies_WAS_Venafi_Read,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=Distro_MiddlewareTechnologies_WAS_Venafi_Read
+  MATCH: CN=Distro_MiddlewareTechnologies_WAS_Venafi,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=Distro_MiddlewareTechnologies_WAS_Venafi
+  MATCH: CN=unx_ep_mix_read,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=unx_ep_mix_read
+  MATCH: CN=unx_ep_mix_readexec,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=unx_ep_mix_readexec
+  MATCH: CN=JBOSS_mix,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=JBOSS_mix
+  MATCH: CN=Monitoring_ReadOnly,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=Monitoring_ReadOnly
+  MATCH: CN=SXC_CORP_CBSDEPLOYMENT_DL_RW,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_CORP_CBSDEPLOYMENT_DL_RW
+  MATCH: CN=SXC_CORP_CBSDEPLOYMENT_GS_RW,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_CORP_CBSDEPLOYMENT_GS_RW
+  MATCH: CN=SXC_SH_GisData_SXC_Archive_RO,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_SH_GisData_SXC_Archive_RO
+  MATCH: CN=SXC_WCM_IRX_CIC_Content_Authors,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_WCM_IRX_CIC_Content_Authors
+  MATCH: CN=SXC_Dept_Information_Management_Services,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_Dept_Information_Management_Services
+  MATCH: CN=SXC_G_PortalAdminsProd,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_G_PortalAdminsProd
+  MATCH: CN=SXC_PortalAdminPrd,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_PortalAdminPrd
+  MATCH: CN=SXC_PortalAdminTst,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_PortalAdminTst
+  MATCH: CN=SXC_Siebel_Admins,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_Siebel_Admins
+  MATCH: CN=SXC_G_Portal_Admins,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_G_Portal_Admins
+  MATCH: CN=SXC_G_PortalAdminsTest,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_G_PortalAdminsTest
+  MATCH: CN=SXC_WebTeam,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_WebTeam
+  MATCH: CN=SXC_Production_Websphere_Admin,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_Production_Websphere_Admin
+  MATCH: CN=SXC_PortalAdmins,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_PortalAdmins
+  MATCH: CN=SXC_Information_Management_Services,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_Information_Management_Services
+  MATCH: CN=SXC_RTCAdmins,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_RTCAdmins
+  MATCH: CN=SXC_HDLP_All_of_IT,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_HDLP_All_of_IT
+  MATCH: CN=SXC_Production_RXCAccess_Help_Files,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_Production_RXCAccess_Help_Files
+  MATCH: CN=SXC_G_TIBCO_QA,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_G_TIBCO_QA
+  MATCH: CN=SXC_IMS_Test_Restricted,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_IMS_Test_Restricted
+  MATCH: CN=SXC_G_TIBCO_DEV,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_G_TIBCO_DEV
+  MATCH: CN=SXC_Internet_Allow_Blogging,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_Internet_Allow_Blogging
+  MATCH: CN=SXC_G_TIBCO_PROD,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_G_TIBCO_PROD
+  MATCH: CN=SXC_G_TIBCO_SIT,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_G_TIBCO_SIT
+  MATCH: CN=SXC_was_admins,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SXC_was_admins
+  MATCH: CN=SAW_Platform_Access_AV,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SAW_Platform_Access_AV
+  MATCH: CN=WAS_ADMIN_WebHosting,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=WAS_ADMIN_WebHosting
+  MATCH: CN=AzureAccess,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AzureAccess
+  MATCH: CN=unx_ep_orx_readexec,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=unx_ep_orx_readexec
+  MATCH: CN=JBOSS_orx,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=JBOSS_orx
+  MATCH: CN=unx_ep_orx_read,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=unx_ep_orx_read
+  MATCH: CN=rxsn_midserver_svc,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=rxsn_midserver_svc
+  MATCH: CN=rxsn_midserver_svc_read,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=rxsn_midserver_svc_read
+  MATCH: CN=orx_oncall_grp,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=orx_oncall_grp
+  MATCH: CN=Catamaran_VDI,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=Catamaran_VDI
+  MATCH: CN=JavaMedia_Read_Only,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=JavaMedia_Read_Only
+  MATCH: CN=unx_ep_mro_read,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=unx_ep_mro_read
+  MATCH: CN=unx_ep_mro_readexec,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=unx_ep_mro_readexec
+  MATCH: CN=JBOSS_mro,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=JBOSS_mro
+  MATCH: CN=CBSDeployment_RO,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=CBSDeployment_RO
+  MATCH: CN=SAW_Putty_Connection_Manager_22040,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SAW_Putty_Connection_Manager_22040
+  MATCH: CN=ORx_IT_SharePoint,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=ORx_IT_SharePoint
+  MATCH: CN=azu_splunk_east_orx_hemi_user,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=azu_splunk_east_orx_hemi_user
+  MATCH: CN=RxConstruct_DT_Admin,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=RxConstruct_DT_Admin
+  MATCH: CN=OptumRx_MPD,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=OptumRx_MPD
+  MATCH: CN=Invention_Submission_Management,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=Invention_Submission_Management
+  MATCH: CN=vRealize_Automation_VDI_User,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=vRealize_Automation_VDI_User
+  MATCH: CN=AS_AcrobatDCStd_AllUsers_Subscription,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AS_AcrobatDCStd_AllUsers_Subscription
+  MATCH: CN=AZU_CORP_OFFICE365_E5_AUDIOCONF1,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_CORP_OFFICE365_E5_AUDIOCONF1
+  MATCH: CN=AZU_CORP_OFFICE365_E5_EXCHANGEONLINE,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_CORP_OFFICE365_E5_EXCHANGEONLINE
+  MATCH: CN=AZU_CORP_OFFICE365_Teams_Recording,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_CORP_OFFICE365_Teams_Recording
+  MATCH: CN=sec_splunk_nsis_iso_power,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=sec_splunk_nsis_iso_power
+  MATCH: CN=AIS_OSFI_ORXITWEBHOSTINGPOC_OECN,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AIS_OSFI_ORXITWEBHOSTINGPOC_OECN
+  MATCH: CN=TLCP,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=TLCP
+  MATCH: CN=AZU_Intune_Mobile_MAM_Users,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_Intune_Mobile_MAM_Users
+  MATCH: CN=AIS_OSFI_ORXWEB_ONECN,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AIS_OSFI_ORXWEB_ONECN
+  MATCH: CN=EUTS_Tech_Hub_VDI_User,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=EUTS_Tech_Hub_VDI_User
+  MATCH: CN=AZU_citrixremote,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_citrixremote
+  MATCH: CN=AZU_CORP_OFFICE365_Teams_Recording_v2,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_CORP_OFFICE365_Teams_Recording_v2
+  MATCH: CN=AZU_0c32e433_5861_4b66_b581_938db686e4bd_Read,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_0c32e433_5861_4b66_b581_938db686e4bd_Read
+  MATCH: CN=ORx_Webhosting_AzDOS_Admins,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=ORx_Webhosting_AzDOS_Admins
+  MATCH: CN=AZU_Sparq_US,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_Sparq_US
+  MATCH: CN=AZU_Sparq_IndividualContributor_29Plus,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_Sparq_IndividualContributor_29Plus
+  MATCH: CN=AZU_Sparq_OptumInsights,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_Sparq_OptumInsights
+  MATCH: CN=AZU_Sparq_InTune_Pilot,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_Sparq_InTune_Pilot
+  MATCH: CN=AZU_CORP_OFFICE365_E5_COREAPPS,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_CORP_OFFICE365_E5_COREAPPS
+  MATCH: CN=appsec_uhgwm110_028331,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=appsec_uhgwm110_028331
+  MATCH: CN=AZU_VDI_2FactorAuth_Ext,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_VDI_2FactorAuth_Ext
+  MATCH: CN=Optum_Rx_Tech_Employees,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=Optum_Rx_Tech_Employees
+  MATCH: CN=Optum_Rx_Tech_US,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=Optum_Rx_Tech_US
+  MATCH: CN=RoboForm_users,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=RoboForm_users
+  MATCH: CN=UHGRG_aide_0073465_READ,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=UHGRG_aide_0073465_READ
+  MATCH: CN=AZU_MSB_O365_AppsAdminCenter_ME_Wave1,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_MSB_O365_AppsAdminCenter_ME_Wave1
+  MATCH: CN=AZU_GHEC_USERS,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_GHEC_USERS
+  MATCH: CN=AZU_ORX_PBM_GITHUB_USERS,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_ORX_PBM_GITHUB_USERS
+  MATCH: CN=AZU_ORX_TECH_OPS_GIT_USERS,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_ORX_TECH_OPS_GIT_USERS
+  MATCH: CN=AZU_ORX_PBM_GITHUB_FA_RW,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_ORX_PBM_GITHUB_FA_RW
+  MATCH: CN=EUTSD_HCP_VDI_User_Developer,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=EUTSD_HCP_VDI_User_Developer
+  MATCH: CN=AZU_ORX_TECH_OPS_GIT_WEBHOSTING_RO,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_ORX_TECH_OPS_GIT_WEBHOSTING_RO
+  MATCH: CN=AZU_ORX_TECH_OPS_GIT_WEBHOSTING_RW,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_ORX_TECH_OPS_GIT_WEBHOSTING_RW
+  MATCH: CN=AZU_ORX_TECH_OPS_GIT_WEBHOSTING_ADMIN,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_ORX_TECH_OPS_GIT_WEBHOSTING_ADMIN
+  MATCH: CN=orx_culinary_eps_servergroup,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=orx_culinary_eps_servergroup
+  MATCH: CN=AZU_UAIS_OpenAI_Playground_Users,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_UAIS_OpenAI_Playground_Users
+  MATCH: CN=COPILOT_ORX_IPS,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=COPILOT_ORX_IPS
+  MATCH: CN=AZU_Sparq_Telecommuter_NoCHC,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_Sparq_Telecommuter_NoCHC
+  MATCH: CN=infrared_lens_read,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=infrared_lens_read
+  MATCH: CN=KM_UnitedKIC_OPTUM_Stakeholders_500,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=KM_UnitedKIC_OPTUM_Stakeholders_500
+  MATCH: CN=KM_UnitedKIC_OPTUM_Stakeholders_500_44770,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=KM_UnitedKIC_OPTUM_Stakeholders_500_44770
+  MATCH: CN=UHGRG_aide_0080085_READ,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=UHGRG_aide_0080085_READ
+  MATCH: CN=SAW_NotePadPlusPlus_39576,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SAW_NotePadPlusPlus_39576
+  MATCH: CN=UHGRG_formularyalternatives_rg_cca2cbc_ADMIN,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=UHGRG_formularyalternatives_rg_cca2cbc_ADMIN
+  MATCH: CN=cloud_splunk_east_formulary_alternatives_power,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=cloud_splunk_east_formulary_alternatives_power
+  MATCH: CN=AZU_Invention_Submission_Management,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_Invention_Submission_Management
+  MATCH: CN=UHGRG_csqa_pega_nonprod_96b30b0_READ,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=UHGRG_csqa_pega_nonprod_96b30b0_READ
+  MATCH: CN=AZU_IAM_MFA_SSPR_Enabled_Synced_Primary,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_IAM_MFA_SSPR_Enabled_Synced_Primary
+  MATCH: CN=orx_pbs_rebate_servergroup,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=orx_pbs_rebate_servergroup
+  MATCH: CN=SAW_WinSCP_40463,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=SAW_WinSCP_40463
+  MATCH: CN=OPTUMRX_FORMULARYALTERNATIVES_Venafi,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=OPTUMRX_FORMULARYALTERNATIVES_Venafi
+  MATCH: CN=OPTUMRX_FORMULARYALTERNATIVES_Venafi_read,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=OPTUMRX_FORMULARYALTERNATIVES_Venafi_read
+  MATCH: CN=AZU_MLRB_Read_Only_Access_Prod,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_MLRB_Read_Only_Access_Prod
+  MATCH: CN=PEGA_ADMIN_WEBHOSTING,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=PEGA_ADMIN_WEBHOSTING
+  MATCH: CN=AZU_Sparq_US_29Plus,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_Sparq_US_29Plus
+  MATCH: CN=OptumRX_Ansible_Users,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=OptumRX_Ansible_Users
+  MATCH: CN=UHGRG_aide_0089130_ADMIN,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=UHGRG_aide_0089130_ADMIN
+  MATCH: CN=ARC_Terraform_Users,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=ARC_Terraform_Users
+  MATCH: CN=AZU_UAIS_AIDojo_GenAI,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_UAIS_AIDojo_GenAI
+  MATCH: CN=AZU_M365_COPILOT,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_M365_COPILOT
+  MATCH: CN=AZU_Sparq_OptumTech,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_Sparq_OptumTech
+  MATCH: CN=AZU_Sparq_Exempt_US,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_Sparq_Exempt_US
+  MATCH: CN=OptumRx_Ansible_Middleware_Eng_Admins,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=OptumRx_Ansible_Middleware_Eng_Admins
+  MATCH: CN=AZU_CLM_Users,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_CLM_Users
+  MATCH: CN=UHGRG_rg_orx_webhosting_bcef511_CONTRIBUTOR,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=UHGRG_rg_orx_webhosting_bcef511_CONTRIBUTOR
+  MATCH: CN=AZU_ISLAND_SAW_PROD,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_ISLAND_SAW_PROD
+  MATCH: CN=AZU_ORBIT_POWERBI_AIDE__0080382_Disaster_Recovery_Reporting,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_ORBIT_POWERBI_AIDE__0080382_Disaster_Recovery_Reporting
+  MATCH: CN=AZU_Sparq_US_Optum,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_Sparq_US_Optum
+  MATCH: CN=ADLOOKUP_DMZMGMT_ACCESS,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=ADLOOKUP_DMZMGMT_ACCESS
+  MATCH: CN=ADLOOKUP_OWCA_ACCESS,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=ADLOOKUP_OWCA_ACCESS
+  MATCH: CN=AZU_SAW_Visual_Studio_Code_44190,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_SAW_Visual_Studio_Code_44190
+  MATCH: CN=UHGRG_robohelp_6bc0fb0_ADMIN,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=UHGRG_robohelp_6bc0fb0_ADMIN
+  MATCH: CN=AZU_secure_sync_dashboard_users,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=AZU_secure_sync_dashboard_users
+  MATCH: CN=UHGRG_uhgwm110_028331_CONTRIBUTOR,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=UHGRG_uhgwm110_028331_CONTRIBUTOR
+  MATCH: CN=immerse_members_NVfQqM,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=immerse_members_NVfQqM
+  MATCH: CN=immerse_members_xcwMKe,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=immerse_members_xcwMKe
+  MATCH: CN=immerse_maintainers_xcwMKe,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com  cn=immerse_maintainers_xcwMKe
 
-$searcher = New-Object System.DirectoryServices.DirectorySearcher
-$searcher.SearchRoot = New-Object System.DirectoryServices.DirectoryEntry("LDAP://ad-ldap-app.uhc.com/dc=ms,dc=ds,dc=uhc,dc=com")
-$searcher.Filter = "(&(objectClass=group)(cn=mid_rxsol_admin_all_env))"
-$searcher.PropertiesToLoad.Add("distinguishedName") | Out-Null
-$searcher.PropertiesToLoad.Add("member") | Out-Null
-
-$result = $searcher.FindOne()
-$result.Properties["distinguishedname"]
-$result.Properties["member"]
-
-
-PS C:\Users\pahmed1> $searcher = New-Object System.DirectoryServices.DirectorySearcher
-$searcher.SearchRoot = New-Object System.DirectoryServices.DirectoryEntry("LDAP://ad-ldap-app.uhc.com/dc=ms,dc=ds,dc=uhc,dc=com")
-$searcher.Filter = "(&(objectClass=group)(cn=mid_rxsol_admin_all_env))"
-$searcher.PropertiesToLoad.Add("distinguishedName") | Out-Null
-$searcher.PropertiesToLoad.Add("member") | Out-Null
-
-$result = $searcher.FindOne()
-$result.Properties["distinguishedname"]
-$result.Properties["member"]
-
-CN=mid_rxsol_admin_all_env,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=aponner2,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=mllorer2,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=snelaku3,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=sishwar1,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=dprasa18,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=vyamara1,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=mreddy45,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=dsankar5,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=vpothul2,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=kdey8,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=dgilkarw,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=pahmed2,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=gp5,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=mnallam1,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=gtedlap1,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-
-PS C:\Users\pahmed1> 
-
-
-
-PS C:\Users\pahmed1> $searcher = New-Object System.DirectoryServices.DirectorySearcher
-$searcher.SearchRoot = New-Object System.DirectoryServices.DirectoryEntry("LDAP://ad-ldap-app.uhc.com/dc=ms,dc=ds,dc=uhc,dc=com")
-$searcher.Filter = "(&(objectClass=group)(cn=SXC_was_admins))"
-$searcher.PropertiesToLoad.Add("distinguishedName") | Out-Null
-$searcher.PropertiesToLoad.Add("member") | Out-Null
-
-$result = $searcher.FindOne()
-$result.Properties["distinguishedname"]
-$result.Properties["member"]
-
-CN=SXC_was_admins,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=aponneri,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=mllorera,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=snelaku1,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=sishwary,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=dprasa16,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=vyamarap,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=dsankar4,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=gkuma126,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=kdey1001,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=gp1003,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=mnallami,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=pahmed1,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=vpothula,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=akuma249,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=gtedlapa,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-CN=mreddy18,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
-
-
-wasuser@rn000216475:/ebiz/app_logs/tomcat
-$ grep -i "hasRole\|GenericPrincipal\|CombinedRealm\|role" ./*
-./catalina.2026-07-09.log:09-Jul-2026 10:07:07.084 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
-./catalina.2026-07-09.log:09-Jul-2026 10:07:07.532 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.JNDIRealm] realm, making a total of [1] realms
-./catalina.2026-07-09.log:09-Jul-2026 10:07:46.332 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
-./catalina.2026-07-09.log:09-Jul-2026 10:07:46.373 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Authenticated user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
-./catalina.2026-07-09.log:09-Jul-2026 10:07:46.381 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
-./catalina.2026-07-09.log:09-Jul-2026 10:07:46.382 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
-./catalina.2026-07-09.log:09-Jul-2026 10:07:46.382 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [mid_rxsol_admin_all_env]
-./catalina.2026-07-09.log:09-Jul-2026 10:07:46.382 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  mid_rxsol_admin_all_env
-./catalina.2026-07-09.log:09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
-./catalina.2026-07-09.log:09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
-./catalina.2026-07-09.log:09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [mid_rxsol_admin_all_env]
-./catalina.2026-07-09.log:09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  mid_rxsol_admin_all_env
-./catalina.2026-07-09.log:09-Jul-2026 11:57:45.309 FINER [http-nio-8080-exec-9] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed2] with realm [org.apache.catalina.realm.JNDIRealm]
-./catalina.2026-07-09.log:09-Jul-2026 11:57:45.504 FINER [http-nio-8080-exec-9] org.apache.catalina.realm.CombinedRealm.authenticate Failed to authenticate user [pahmed2] with realm [org.apache.catalina.realm.JNDIRealm]
-./catalina.2026-07-09.log:09-Jul-2026 11:58:24.044 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed2] with realm [org.apache.catalina.realm.JNDIRealm]
-./catalina.2026-07-09.log:09-Jul-2026 11:58:24.138 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.CombinedRealm.authenticate Authenticated user [pahmed2] with realm [org.apache.catalina.realm.JNDIRealm]
-./catalina.2026-07-09.log:09-Jul-2026 11:58:24.144 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed2()]
-./catalina.2026-07-09.log:09-Jul-2026 11:58:24.144 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed2()]
-./catalina.2026-07-09.log:09-Jul-2026 11:58:24.144 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed2] does NOT have role [mid_rxsol_admin_all_env]
-./catalina.2026-07-09.log:09-Jul-2026 11:58:24.144 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  mid_rxsol_admin_all_env
-./catalina.2026-07-09.log:09-Jul-2026 11:58:24.182 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed2()]
-./catalina.2026-07-09.log:09-Jul-2026 11:58:24.182 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed2()]
-./catalina.2026-07-09.log:09-Jul-2026 11:58:24.182 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed2] does NOT have role [mid_rxsol_admin_all_env]
-./catalina.2026-07-09.log:09-Jul-2026 11:58:24.182 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  mid_rxsol_admin_all_env
-./catalina.2026-07-09.log:09-Jul-2026 11:59:12.014 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed2] with realm [org.apache.catalina.realm.JNDIRealm]
-./catalina.2026-07-09.log:09-Jul-2026 11:59:12.197 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.CombinedRealm.authenticate Failed to authenticate user [pahmed2] with realm [org.apache.catalina.realm.JNDIRealm]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:13.302 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:13.330 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.CombinedRealm.authenticate Authenticated user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:13.337 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:13.337 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:13.337 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
-./catalina.2026-07-09.log:09-Jul-2026 12:10:13.383 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:13.383 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:13.383 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
-./catalina.2026-07-09.log:09-Jul-2026 12:10:15.031 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:15.031 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:15.031 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
-./catalina.2026-07-09.log:09-Jul-2026 12:10:15.061 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:15.061 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:15.061 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
-./catalina.2026-07-09.log:09-Jul-2026 12:10:36.551 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
-./catalina.2026-07-09.log:09-Jul-2026 12:10:37.127 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.JNDIRealm] realm, making a total of [1] realms
-./catalina.2026-07-09.log:09-Jul-2026 12:10:53.171 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:53.204 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Authenticated user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:53.211 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:53.211 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:53.211 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:53.211 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
-./catalina.2026-07-09.log:09-Jul-2026 12:10:53.259 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:53.259 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:53.259 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
-./catalina.2026-07-09.log:09-Jul-2026 12:10:53.259 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
-./localhost.2026-07-09.log:             at org.apache.catalina.realm.CombinedRealm.authenticate(CombinedRealm.java:165)
-wasuser@rn000216475:/ebiz/app_logs/tomcat
+Total matches: 139
+=> Got results here but not in Tomcat. That's a strong signal
+   something is different about Tomcat's own JVM/network context
+   (e.g. a different outbound interface, proxy, or JVM trust/DNS config).
+wasuser@rn000216475:/ebiz/scripts
 $
-
-PS C:\Users\pahmed1> 
-
-
-$de = New-Object System.DirectoryServices.DirectoryEntry(
-    "LDAP://ad-ldap-app.uhc.com/dc=ms,dc=ds,dc=uhc,dc=com",
-    "wsbindtst@ms.ds.uhc.com",
-    "<the bind password from ROOT.xml>"
-)
-$searcher = New-Object System.DirectoryServices.DirectorySearcher($de)
-$searcher.Filter = "(&(objectClass=group)(cn=SXC_was_admins))"
-$searcher.PropertiesToLoad.AddRange(@("distinguishedName","member"))
-$result = $searcher.FindOne()
-$result.Properties["member"]
-
-
-
-$de = New-Object System.DirectoryServices.DirectoryEntry(
-    "LDAP://ad-ldap-app.uhc.com/dc=ms,dc=ds,dc=uhc,dc=com",
-    "wsbindtst@ms.ds.uhc.com",
-    "<the bind password from ROOT.xml>"
-)
-$searcher = New-Object System.DirectoryServices.DirectorySearcher($de)
-$searcher.Filter = "(&(objectClass=group)(member=CN=pahmed1,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com))"
-$searcher.PropertiesToLoad.Add("cn") | Out-Null
-$results = $searcher.FindAll()
-$results | ForEach-Object { $_.Properties["cn"] }
-
-
-org.apache.catalina.realm.JNDIRealm.level = FINEST
-org.apache.catalina.realm.JNDIRealm.handlers = 3catalina.org.apache.juli.AsyncFileHandler
-
-
-
-1catalina.org.apache.juli.AsyncFileHandler.level = FINE
