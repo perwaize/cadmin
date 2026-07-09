@@ -163,3 +163,7 @@ $results | ForEach-Object { $_.Properties["cn"] }
 
 org.apache.catalina.realm.JNDIRealm.level = FINEST
 org.apache.catalina.realm.JNDIRealm.handlers = 3catalina.org.apache.juli.AsyncFileHandler
+
+
+
+1catalina.org.apache.juli.AsyncFileHandler.level = FINE
