@@ -74,4 +74,63 @@ CN=akuma249,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
 CN=gtedlapa,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
 CN=mreddy18,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com
 
+
+wasuser@rn000216475:/ebiz/app_logs/tomcat
+$ grep -i "hasRole\|GenericPrincipal\|CombinedRealm\|role" ./*
+./catalina.2026-07-09.log:09-Jul-2026 10:07:07.084 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+./catalina.2026-07-09.log:09-Jul-2026 10:07:07.532 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.JNDIRealm] realm, making a total of [1] realms
+./catalina.2026-07-09.log:09-Jul-2026 10:07:46.332 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
+./catalina.2026-07-09.log:09-Jul-2026 10:07:46.373 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Authenticated user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
+./catalina.2026-07-09.log:09-Jul-2026 10:07:46.381 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
+./catalina.2026-07-09.log:09-Jul-2026 10:07:46.382 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
+./catalina.2026-07-09.log:09-Jul-2026 10:07:46.382 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [mid_rxsol_admin_all_env]
+./catalina.2026-07-09.log:09-Jul-2026 10:07:46.382 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  mid_rxsol_admin_all_env
+./catalina.2026-07-09.log:09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
+./catalina.2026-07-09.log:09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
+./catalina.2026-07-09.log:09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [mid_rxsol_admin_all_env]
+./catalina.2026-07-09.log:09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  mid_rxsol_admin_all_env
+./catalina.2026-07-09.log:09-Jul-2026 11:57:45.309 FINER [http-nio-8080-exec-9] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed2] with realm [org.apache.catalina.realm.JNDIRealm]
+./catalina.2026-07-09.log:09-Jul-2026 11:57:45.504 FINER [http-nio-8080-exec-9] org.apache.catalina.realm.CombinedRealm.authenticate Failed to authenticate user [pahmed2] with realm [org.apache.catalina.realm.JNDIRealm]
+./catalina.2026-07-09.log:09-Jul-2026 11:58:24.044 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed2] with realm [org.apache.catalina.realm.JNDIRealm]
+./catalina.2026-07-09.log:09-Jul-2026 11:58:24.138 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.CombinedRealm.authenticate Authenticated user [pahmed2] with realm [org.apache.catalina.realm.JNDIRealm]
+./catalina.2026-07-09.log:09-Jul-2026 11:58:24.144 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed2()]
+./catalina.2026-07-09.log:09-Jul-2026 11:58:24.144 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed2()]
+./catalina.2026-07-09.log:09-Jul-2026 11:58:24.144 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed2] does NOT have role [mid_rxsol_admin_all_env]
+./catalina.2026-07-09.log:09-Jul-2026 11:58:24.144 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  mid_rxsol_admin_all_env
+./catalina.2026-07-09.log:09-Jul-2026 11:58:24.182 FINER [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed2()]
+./catalina.2026-07-09.log:09-Jul-2026 11:58:24.182 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed2()]
+./catalina.2026-07-09.log:09-Jul-2026 11:58:24.182 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed2] does NOT have role [mid_rxsol_admin_all_env]
+./catalina.2026-07-09.log:09-Jul-2026 11:58:24.182 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  mid_rxsol_admin_all_env
+./catalina.2026-07-09.log:09-Jul-2026 11:59:12.014 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed2] with realm [org.apache.catalina.realm.JNDIRealm]
+./catalina.2026-07-09.log:09-Jul-2026 11:59:12.197 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.CombinedRealm.authenticate Failed to authenticate user [pahmed2] with realm [org.apache.catalina.realm.JNDIRealm]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:13.302 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:13.330 FINER [http-nio-8080-exec-10] org.apache.catalina.realm.CombinedRealm.authenticate Authenticated user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:13.337 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:13.337 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:13.337 FINER [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
+./catalina.2026-07-09.log:09-Jul-2026 12:10:13.383 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:13.383 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:13.383 FINER [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
+./catalina.2026-07-09.log:09-Jul-2026 12:10:15.031 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:15.031 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:15.031 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
+./catalina.2026-07-09.log:09-Jul-2026 12:10:15.061 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:15.061 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:15.061 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
+./catalina.2026-07-09.log:09-Jul-2026 12:10:36.551 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+./catalina.2026-07-09.log:09-Jul-2026 12:10:37.127 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.JNDIRealm] realm, making a total of [1] realms
+./catalina.2026-07-09.log:09-Jul-2026 12:10:53.171 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:53.204 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Authenticated user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:53.211 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:53.211 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:53.211 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:53.211 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
+./catalina.2026-07-09.log:09-Jul-2026 12:10:53.259 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:53.259 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:53.259 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
+./catalina.2026-07-09.log:09-Jul-2026 12:10:53.259 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
+./localhost.2026-07-09.log:             at org.apache.catalina.realm.CombinedRealm.authenticate(CombinedRealm.java:165)
+wasuser@rn000216475:/ebiz/app_logs/tomcat
+$
+
 PS C:\Users\pahmed1> 
