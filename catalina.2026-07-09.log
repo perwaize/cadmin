@@ -1,45 +1,45 @@
-09-Jul-2026 10:07:07.084 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
-09-Jul-2026 10:07:07.107 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardHost[localhost]] to container [StandardEngine[Catalina]]
-09-Jul-2026 10:07:07.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.56
-09-Jul-2026 10:07:07.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 17 2026 23:33:08 UTC
-09-Jul-2026 10:07:07.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.56.0
-09-Jul-2026 10:07:07.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
-09-Jul-2026 10:07:07.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-687.17.1.el9_8.x86_64
-09-Jul-2026 10:07:07.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
-09-Jul-2026 10:07:07.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /ebiz/install/jdk-21.0.11+10-jre
-09-Jul-2026 10:07:07.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.11+10-LTS
-09-Jul-2026 10:07:07.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
-09-Jul-2026 10:07:07.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /ebiz/install/apache-tomcat-10.1.56
-09-Jul-2026 10:07:07.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /ebiz/install/apache-tomcat-10.1.56
-09-Jul-2026 10:07:07.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ebiz/tomcat/conf/logging.properties
-09-Jul-2026 10:07:07.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-09-Jul-2026 10:07:07.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
-09-Jul-2026 10:07:07.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
-09-Jul-2026 10:07:07.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
-09-Jul-2026 10:07:07.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0022
-09-Jul-2026 10:07:07.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
-09-Jul-2026 10:07:07.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
-09-Jul-2026 10:07:07.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
-09-Jul-2026 10:07:07.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
-09-Jul-2026 10:07:07.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms4096M
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx4096M
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=America/Chicago
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+DisableExplicitGC
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGC
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.rmi.dgc.client.gcInterval=3600000
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.rmi.dgc.server.gcInterval=3600000
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCDetails
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -verbose:gc
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xlog:gc:/ebiz/app_logs/tomcat/vgc.log
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=/ebiz/dumps/OOMheapdump-20260709-100706.hprof
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ebiz/tomcat
-09-Jul-2026 10:07:07.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ebiz/tomcat
-09-Jul-2026 10:07:07.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ebiz/tomcat/temp
-09-Jul-2026 10:07:07.125 FINE [main] org.apache.catalina.core.AprLifecycleListener.init The Apache Tomcat Native library could not be found using names [tcnative-2, libtcnative-2, tcnative-1, libtcnative-1] on the java.library.path [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]. The errors reported were [Can't load library: /ebiz/install/apache-tomcat-10.1.56/bin/libtcnative-2.so, Can't load library: /ebiz/install/apache-tomcat-10.1.56/bin/liblibtcnative-2.so, Can't load library: /ebiz/install/apache-tomcat-10.1.56/bin/libtcnative-1.so, Can't load library: /ebiz/install/apache-tomcat-10.1.56/bin/liblibtcnative-1.so, no tcnative-2 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, no libtcnative-2 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, no tcnative-1 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, no libtcnative-1 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+09-Jul-2026 12:29:03.118 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.UserDatabaseRealm] realm, making a total of [1] realms
+09-Jul-2026 12:29:03.143 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardHost[localhost]] to container [StandardEngine[Catalina]]
+09-Jul-2026 12:29:03.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.56
+09-Jul-2026 12:29:03.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 17 2026 23:33:08 UTC
+09-Jul-2026 12:29:03.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.56.0
+09-Jul-2026 12:29:03.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Jul-2026 12:29:03.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-687.17.1.el9_8.x86_64
+09-Jul-2026 12:29:03.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jul-2026 12:29:03.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /ebiz/install/jdk-21.0.11+10-jre
+09-Jul-2026 12:29:03.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.11+10-LTS
+09-Jul-2026 12:29:03.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+09-Jul-2026 12:29:03.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /ebiz/install/apache-tomcat-10.1.56
+09-Jul-2026 12:29:03.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /ebiz/install/apache-tomcat-10.1.56
+09-Jul-2026 12:29:03.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/ebiz/tomcat/conf/logging.properties
+09-Jul-2026 12:29:03.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jul-2026 12:29:03.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jul-2026 12:29:03.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jul-2026 12:29:03.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+09-Jul-2026 12:29:03.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0022
+09-Jul-2026 12:29:03.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jul-2026 12:29:03.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+09-Jul-2026 12:29:03.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jul-2026 12:29:03.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jul-2026 12:29:03.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jul-2026 12:29:03.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jul-2026 12:29:03.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms4096M
+09-Jul-2026 12:29:03.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx4096M
+09-Jul-2026 12:29:03.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=America/Chicago
+09-Jul-2026 12:29:03.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+09-Jul-2026 12:29:03.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+DisableExplicitGC
+09-Jul-2026 12:29:03.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGC
+09-Jul-2026 12:29:03.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.rmi.dgc.client.gcInterval=3600000
+09-Jul-2026 12:29:03.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.rmi.dgc.server.gcInterval=3600000
+09-Jul-2026 12:29:03.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCDetails
+09-Jul-2026 12:29:03.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -verbose:gc
+09-Jul-2026 12:29:03.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xlog:gc:/ebiz/app_logs/tomcat/vgc.log
+09-Jul-2026 12:29:03.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+09-Jul-2026 12:29:03.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=/ebiz/dumps/OOMheapdump-20260709-122902.hprof
+09-Jul-2026 12:29:03.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/ebiz/tomcat
+09-Jul-2026 12:29:03.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/ebiz/tomcat
+09-Jul-2026 12:29:03.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/ebiz/tomcat/temp
+09-Jul-2026 12:29:03.165 FINE [main] org.apache.catalina.core.AprLifecycleListener.init The Apache Tomcat Native library could not be found using names [tcnative-2, libtcnative-2, tcnative-1, libtcnative-1] on the java.library.path [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]. The errors reported were [Can't load library: /ebiz/install/apache-tomcat-10.1.56/bin/libtcnative-2.so, Can't load library: /ebiz/install/apache-tomcat-10.1.56/bin/liblibtcnative-2.so, Can't load library: /ebiz/install/apache-tomcat-10.1.56/bin/libtcnative-1.so, Can't load library: /ebiz/install/apache-tomcat-10.1.56/bin/liblibtcnative-1.so, no tcnative-2 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, no libtcnative-2 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, no tcnative-1 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, no libtcnative-1 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
 	org.apache.tomcat.jni.LibraryNotFoundError: Can't load library: /ebiz/install/apache-tomcat-10.1.56/bin/libtcnative-2.so, Can't load library: /ebiz/install/apache-tomcat-10.1.56/bin/liblibtcnative-2.so, Can't load library: /ebiz/install/apache-tomcat-10.1.56/bin/libtcnative-1.so, Can't load library: /ebiz/install/apache-tomcat-10.1.56/bin/liblibtcnative-1.so, no tcnative-2 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, no libtcnative-2 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, no tcnative-1 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, no libtcnative-1 in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
 		at org.apache.tomcat.jni.Library.<init>(Library.java:94)
 		at org.apache.tomcat.jni.Library.initialize(Library.java:175)
@@ -54,95 +54,95 @@
 		at java.base/java.lang.reflect.Method.invoke(Unknown Source)
 		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
 		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
-09-Jul-2026 10:07:07.125 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
-09-Jul-2026 10:07:07.416 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
-09-Jul-2026 10:07:07.432 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [479] milliseconds
-09-Jul-2026 10:07:07.437 FINE [main] org.apache.catalina.core.NamingContextListener.lifecycleEvent Bind naming context to container [StandardServer[8005]]
-09-Jul-2026 10:07:07.437 FINE [main] org.apache.catalina.core.NamingContextListener.addResource Adding resource reference [ResourceRef[className=org.apache.catalina.UserDatabase,factoryClassLocation=null,factoryClassName=org.apache.naming.factory.ResourceFactory,{type=description,content=User database that can be updated and saved},{type=scope,content=Shareable},{type=auth,content=Container},{type=singleton,content=true},{type=factory,content=org.apache.catalina.users.MemoryUserDatabaseFactory},{type=pathname,content=conf/tomcat-users.xml}]] at [UserDatabase]
-09-Jul-2026 10:07:07.465 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
-09-Jul-2026 10:07:07.466 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.56]
-09-Jul-2026 10:07:07.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/ebiz/install/apache-tomcat-10.1.56/conf/Catalina/localhost/ROOT.xml]
-09-Jul-2026 10:07:07.510 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardContext[]] to container [StandardEngine[Catalina].StandardHost[localhost]]
-09-Jul-2026 10:07:07.532 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.JNDIRealm] realm, making a total of [1] realms
-09-Jul-2026 10:07:07.729 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardWrapper[default]] to container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
-09-Jul-2026 10:07:07.730 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardWrapper[jsp]] to container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
-09-Jul-2026 10:07:07.776 FINE [main] org.apache.catalina.core.NamingContextListener.lifecycleEvent Bind naming context to container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
-09-Jul-2026 10:07:07.778 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
-09-Jul-2026 10:07:07.778 FINE [main] org.apache.catalina.core.StandardContext.startInternal No manager found. Checking if cluster manager should be used. Cluster configured: [false], Application distributable: [false]
-09-Jul-2026 10:07:07.782 FINE [main] org.apache.catalina.core.StandardContext.startInternal Configured a manager of class [org.apache.catalina.session.StandardManager]
-09-Jul-2026 10:07:07.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/ebiz/install/apache-tomcat-10.1.56/conf/Catalina/localhost/ROOT.xml] has finished in [349] ms
-09-Jul-2026 10:07:07.831 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/ebiz/install/apache-tomcat-10.1.56/webapps/health.war]
-09-Jul-2026 10:07:07.831 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardContext[/health]] to container [StandardEngine[Catalina].StandardHost[localhost]]
-09-Jul-2026 10:07:07.841 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardWrapper[default]] to container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/health]]
-09-Jul-2026 10:07:07.842 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardWrapper[jsp]] to container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/health]]
-09-Jul-2026 10:07:07.843 FINE [main] org.apache.catalina.core.NamingContextListener.lifecycleEvent Bind naming context to container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/health]]
-09-Jul-2026 10:07:07.843 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
-09-Jul-2026 10:07:07.844 FINE [main] org.apache.catalina.core.StandardContext.startInternal No manager found. Checking if cluster manager should be used. Cluster configured: [false], Application distributable: [false]
-09-Jul-2026 10:07:07.844 FINE [main] org.apache.catalina.core.StandardContext.startInternal Configured a manager of class [org.apache.catalina.session.StandardManager]
-09-Jul-2026 10:07:07.848 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/ebiz/install/apache-tomcat-10.1.56/webapps/health.war] has finished in [17] ms
-09-Jul-2026 10:07:07.851 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
-09-Jul-2026 10:07:07.873 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [439] milliseconds
-09-Jul-2026 10:07:42.085 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
-09-Jul-2026 10:07:42.088 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
-09-Jul-2026 10:07:42.089 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
-09-Jul-2026 10:07:42.094 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [/ebiz/install/apache-tomcat-10.1.56/conf/jaspic-providers.xml]
-09-Jul-2026 10:07:42.100 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
-09-Jul-2026 10:07:42.101 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
-09-Jul-2026 10:07:42.101 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
-09-Jul-2026 10:07:42.105 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session 'C346E8B5BAE9C123264144A6D6CA59FE'
-09-Jul-2026 10:07:42.110 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/favicon.ico] made with method [GET] to login page [/login.html] of context [] using request method GET
-09-Jul-2026 10:07:42.110 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [C346E8B5BAE9C123264144A6D6CA59FE] to [1CDF995CD3B383F1723D21F3D5BB8A3C]
-09-Jul-2026 10:07:42.110 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Session ID changed before forwarding to login page during FORM authentication from [C346E8B5BAE9C123264144A6D6CA59FE] to [1CDF995CD3B383F1723D21F3D5BB8A3C]
-09-Jul-2026 10:07:42.129 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
-09-Jul-2026 10:07:42.211 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
-09-Jul-2026 10:07:42.212 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
-09-Jul-2026 10:07:42.212 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
-09-Jul-2026 10:07:42.213 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
-09-Jul-2026 10:07:42.213 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
-09-Jul-2026 10:07:42.214 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
-09-Jul-2026 10:07:42.215 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session '1CDF995CD3B383F1723D21F3D5BB8A3C'
-09-Jul-2026 10:07:42.215 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/favicon.ico] made with method [GET] to login page [/login.html] of context [] using request method GET
-09-Jul-2026 10:07:42.216 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [1CDF995CD3B383F1723D21F3D5BB8A3C] to [6B4B04CB0AE66980C8402F0A5EBE79F9]
-09-Jul-2026 10:07:42.216 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Session ID changed before forwarding to login page during FORM authentication from [1CDF995CD3B383F1723D21F3D5BB8A3C] to [6B4B04CB0AE66980C8402F0A5EBE79F9]
-09-Jul-2026 10:07:42.218 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
-09-Jul-2026 10:07:46.330 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /j_security_check
-09-Jul-2026 10:07:46.330 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against POST /j_security_check --> true
-09-Jul-2026 10:07:46.330 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against POST /j_security_check --> true
-09-Jul-2026 10:07:46.330 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
-09-Jul-2026 10:07:46.330 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
-09-Jul-2026 10:07:46.330 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
-09-Jul-2026 10:07:46.331 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Authenticating username 'pahmed1'
-09-Jul-2026 10:07:46.332 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
-09-Jul-2026 10:07:46.373 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Authenticated user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
-09-Jul-2026 10:07:46.373 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Authentication of 'pahmed1' was successful
-09-Jul-2026 10:07:46.373 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.register Authenticated principal [pahmed1] with authentication type [FORM]
-09-Jul-2026 10:07:46.374 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [6B4B04CB0AE66980C8402F0A5EBE79F9] to [DF708BD203D954E24633DBAB71377D59]
-09-Jul-2026 10:07:46.374 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Redirecting to original '/favicon.ico'
-09-Jul-2026 10:07:46.374 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
-09-Jul-2026 10:07:46.381 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
-09-Jul-2026 10:07:46.381 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
-09-Jul-2026 10:07:46.381 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
-09-Jul-2026 10:07:46.381 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
-09-Jul-2026 10:07:46.381 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
-09-Jul-2026 10:07:46.381 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
-09-Jul-2026 10:07:46.381 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
-09-Jul-2026 10:07:46.381 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Restore request from session 'DF708BD203D954E24633DBAB71377D59'
-09-Jul-2026 10:07:46.381 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Proceed to restored request
-09-Jul-2026 10:07:46.381 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling accessControl()
-09-Jul-2026 10:07:46.382 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
-09-Jul-2026 10:07:46.382 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [mid_rxsol_admin_all_env]
-09-Jul-2026 10:07:46.382 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  mid_rxsol_admin_all_env
-09-Jul-2026 10:07:46.382 FINE [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke User [pahmed1] does not have authorization to access the resource
-09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
-09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
-09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
-09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
-09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
-09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
-09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
-09-Jul-2026 10:07:46.434 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.checkForCachedAuthentication Already authenticated [pahmed1]
-09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling accessControl()
-09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
-09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [mid_rxsol_admin_all_env]
-09-Jul-2026 10:07:46.434 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  mid_rxsol_admin_all_env
-09-Jul-2026 10:07:46.434 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke User [pahmed1] does not have authorization to access the resource
+09-Jul-2026 12:29:03.165 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+09-Jul-2026 12:29:03.562 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jul-2026 12:29:03.587 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [600] milliseconds
+09-Jul-2026 12:29:03.594 FINE [main] org.apache.catalina.core.NamingContextListener.lifecycleEvent Bind naming context to container [StandardServer[8005]]
+09-Jul-2026 12:29:03.595 FINE [main] org.apache.catalina.core.NamingContextListener.addResource Adding resource reference [ResourceRef[className=org.apache.catalina.UserDatabase,factoryClassLocation=null,factoryClassName=org.apache.naming.factory.ResourceFactory,{type=description,content=User database that can be updated and saved},{type=scope,content=Shareable},{type=auth,content=Container},{type=singleton,content=true},{type=factory,content=org.apache.catalina.users.MemoryUserDatabaseFactory},{type=pathname,content=conf/tomcat-users.xml}]] at [UserDatabase]
+09-Jul-2026 12:29:03.639 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jul-2026 12:29:03.639 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.56]
+09-Jul-2026 12:29:03.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/ebiz/install/apache-tomcat-10.1.56/conf/Catalina/localhost/ROOT.xml]
+09-Jul-2026 12:29:03.682 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardContext[]] to container [StandardEngine[Catalina].StandardHost[localhost]]
+09-Jul-2026 12:29:03.703 FINE [main] org.apache.catalina.realm.CombinedRealm.addRealm Add [org.apache.catalina.realm.JNDIRealm] realm, making a total of [1] realms
+09-Jul-2026 12:29:03.903 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardWrapper[default]] to container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+09-Jul-2026 12:29:03.904 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardWrapper[jsp]] to container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+09-Jul-2026 12:29:03.968 FINE [main] org.apache.catalina.core.NamingContextListener.lifecycleEvent Bind naming context to container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+09-Jul-2026 12:29:03.970 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+09-Jul-2026 12:29:03.971 FINE [main] org.apache.catalina.core.StandardContext.startInternal No manager found. Checking if cluster manager should be used. Cluster configured: [false], Application distributable: [false]
+09-Jul-2026 12:29:03.975 FINE [main] org.apache.catalina.core.StandardContext.startInternal Configured a manager of class [org.apache.catalina.session.StandardManager]
+09-Jul-2026 12:29:04.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/ebiz/install/apache-tomcat-10.1.56/conf/Catalina/localhost/ROOT.xml] has finished in [384] ms
+09-Jul-2026 12:29:04.037 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/ebiz/install/apache-tomcat-10.1.56/webapps/health.war]
+09-Jul-2026 12:29:04.037 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardContext[/health]] to container [StandardEngine[Catalina].StandardHost[localhost]]
+09-Jul-2026 12:29:04.048 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardWrapper[default]] to container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/health]]
+09-Jul-2026 12:29:04.048 FINE [main] org.apache.catalina.core.ContainerBase.addChildInternal Add container child [StandardWrapper[jsp]] to container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/health]]
+09-Jul-2026 12:29:04.049 FINE [main] org.apache.catalina.core.NamingContextListener.lifecycleEvent Bind naming context to container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/health]]
+09-Jul-2026 12:29:04.050 FINER [main] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+09-Jul-2026 12:29:04.050 FINE [main] org.apache.catalina.core.StandardContext.startInternal No manager found. Checking if cluster manager should be used. Cluster configured: [false], Application distributable: [false]
+09-Jul-2026 12:29:04.050 FINE [main] org.apache.catalina.core.StandardContext.startInternal Configured a manager of class [org.apache.catalina.session.StandardManager]
+09-Jul-2026 12:29:04.055 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/ebiz/install/apache-tomcat-10.1.56/webapps/health.war] has finished in [18] ms
+09-Jul-2026 12:29:04.058 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jul-2026 12:29:04.078 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [489] milliseconds
+09-Jul-2026 12:29:16.208 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /
+09-Jul-2026 12:29:16.212 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /index.html --> true
+09-Jul-2026 12:29:16.213 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /index.html --> true
+09-Jul-2026 12:29:16.216 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [/ebiz/install/apache-tomcat-10.1.56/conf/jaspic-providers.xml]
+09-Jul-2026 12:29:16.220 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+09-Jul-2026 12:29:16.224 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+09-Jul-2026 12:29:16.224 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+09-Jul-2026 12:29:16.228 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session '2AA37047B10FE8E77D5AE6FB30E8112E'
+09-Jul-2026 12:29:16.232 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/] made with method [GET] to login page [/login.html] of context [] using request method GET
+09-Jul-2026 12:29:16.232 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [2AA37047B10FE8E77D5AE6FB30E8112E] to [9AC43333697751C09142AE0A733188A6]
+09-Jul-2026 12:29:16.232 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Session ID changed before forwarding to login page during FORM authentication from [2AA37047B10FE8E77D5AE6FB30E8112E] to [9AC43333697751C09142AE0A733188A6]
+09-Jul-2026 12:29:16.252 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+09-Jul-2026 12:29:16.322 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+09-Jul-2026 12:29:16.322 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
+09-Jul-2026 12:29:16.322 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
+09-Jul-2026 12:29:16.322 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+09-Jul-2026 12:29:16.322 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+09-Jul-2026 12:29:16.322 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+09-Jul-2026 12:29:16.322 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session '9AC43333697751C09142AE0A733188A6'
+09-Jul-2026 12:29:16.323 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/favicon.ico] made with method [GET] to login page [/login.html] of context [] using request method GET
+09-Jul-2026 12:29:16.323 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [9AC43333697751C09142AE0A733188A6] to [08D7FDCF24F2A818AA75B4FB415DCA6D]
+09-Jul-2026 12:29:16.323 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Session ID changed before forwarding to login page during FORM authentication from [9AC43333697751C09142AE0A733188A6] to [08D7FDCF24F2A818AA75B4FB415DCA6D]
+09-Jul-2026 12:29:16.325 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+09-Jul-2026 12:29:22.834 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /j_security_check
+09-Jul-2026 12:29:22.834 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against POST /j_security_check --> true
+09-Jul-2026 12:29:22.834 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against POST /j_security_check --> true
+09-Jul-2026 12:29:22.834 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+09-Jul-2026 12:29:22.834 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+09-Jul-2026 12:29:22.834 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+09-Jul-2026 12:29:22.835 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Authenticating username 'pahmed1'
+09-Jul-2026 12:29:22.835 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
+09-Jul-2026 12:29:22.864 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Authenticated user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
+09-Jul-2026 12:29:22.865 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Authentication of 'pahmed1' was successful
+09-Jul-2026 12:29:22.865 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.register Authenticated principal [pahmed1] with authentication type [FORM]
+09-Jul-2026 12:29:22.865 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [08D7FDCF24F2A818AA75B4FB415DCA6D] to [34FF9DFA84C4B3F8D6D1A012D8C52155]
+09-Jul-2026 12:29:22.865 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Redirecting to original '/favicon.ico'
+09-Jul-2026 12:29:22.866 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+09-Jul-2026 12:29:22.871 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+09-Jul-2026 12:29:22.871 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
+09-Jul-2026 12:29:22.871 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
+09-Jul-2026 12:29:22.871 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
+09-Jul-2026 12:29:22.871 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+09-Jul-2026 12:29:22.871 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+09-Jul-2026 12:29:22.871 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+09-Jul-2026 12:29:22.872 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Restore request from session '34FF9DFA84C4B3F8D6D1A012D8C52155'
+09-Jul-2026 12:29:22.872 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Proceed to restored request
+09-Jul-2026 12:29:22.872 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling accessControl()
+09-Jul-2026 12:29:22.872 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
+09-Jul-2026 12:29:22.872 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
+09-Jul-2026 12:29:22.872 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
+09-Jul-2026 12:29:22.872 FINE [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke User [pahmed1] does not have authorization to access the resource
+09-Jul-2026 12:29:22.914 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+09-Jul-2026 12:29:22.915 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
+09-Jul-2026 12:29:22.915 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
+09-Jul-2026 12:29:22.915 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
+09-Jul-2026 12:29:22.915 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+09-Jul-2026 12:29:22.915 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+09-Jul-2026 12:29:22.915 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+09-Jul-2026 12:29:22.915 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.checkForCachedAuthentication Already authenticated [pahmed1]
+09-Jul-2026 12:29:22.915 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling accessControl()
+09-Jul-2026 12:29:22.915 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
+09-Jul-2026 12:29:22.915 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
+09-Jul-2026 12:29:22.915 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
+09-Jul-2026 12:29:22.915 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke User [pahmed1] does not have authorization to access the resource
