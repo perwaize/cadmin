@@ -1,0 +1,65 @@
+09-Jul-2026 13:21:28.541 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /
+09-Jul-2026 13:21:28.545 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /index.html --> true
+09-Jul-2026 13:21:28.546 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /index.html --> true
+09-Jul-2026 13:21:28.553 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [/ebiz/install/apache-tomcat-10.1.56/conf/jaspic-providers.xml]
+09-Jul-2026 13:21:28.560 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+09-Jul-2026 13:21:28.560 FINER [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+09-Jul-2026 13:21:28.560 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+09-Jul-2026 13:21:28.565 FINER [http-nio-8080-exec-1] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session 'D6313A93DB1A570256862C8B133DBCBC'
+09-Jul-2026 13:21:28.569 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/] made with method [GET] to login page [/login.html] of context [] using request method GET
+09-Jul-2026 13:21:28.569 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [D6313A93DB1A570256862C8B133DBCBC] to [600BD57ED65A272968E90ED4C0DA76A6]
+09-Jul-2026 13:21:28.569 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Session ID changed before forwarding to login page during FORM authentication from [D6313A93DB1A570256862C8B133DBCBC] to [600BD57ED65A272968E90ED4C0DA76A6]
+09-Jul-2026 13:21:28.588 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+09-Jul-2026 13:21:28.687 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+09-Jul-2026 13:21:28.687 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
+09-Jul-2026 13:21:28.687 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
+09-Jul-2026 13:21:28.687 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+09-Jul-2026 13:21:28.687 FINER [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+09-Jul-2026 13:21:28.687 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+09-Jul-2026 13:21:28.687 FINER [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session '600BD57ED65A272968E90ED4C0DA76A6'
+09-Jul-2026 13:21:28.688 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/favicon.ico] made with method [GET] to login page [/login.html] of context [] using request method GET
+09-Jul-2026 13:21:28.688 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [600BD57ED65A272968E90ED4C0DA76A6] to [70AB175336D59B8ACEF3720C6C757DD2]
+09-Jul-2026 13:21:28.688 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Session ID changed before forwarding to login page during FORM authentication from [600BD57ED65A272968E90ED4C0DA76A6] to [70AB175336D59B8ACEF3720C6C757DD2]
+09-Jul-2026 13:21:28.691 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+09-Jul-2026 13:21:32.209 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request POST /j_security_check
+09-Jul-2026 13:21:32.209 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against POST /j_security_check --> true
+09-Jul-2026 13:21:32.209 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against POST /j_security_check --> true
+09-Jul-2026 13:21:32.209 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+09-Jul-2026 13:21:32.209 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+09-Jul-2026 13:21:32.209 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+09-Jul-2026 13:21:32.210 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Authenticating username 'pahmed1'
+09-Jul-2026 13:21:32.210 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Attempting to authenticate user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
+09-Jul-2026 13:21:32.246 FINER [http-nio-8080-exec-3] org.apache.catalina.realm.CombinedRealm.authenticate Authenticated user [pahmed1] with realm [org.apache.catalina.realm.JNDIRealm]
+09-Jul-2026 13:21:32.247 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Authentication of 'pahmed1' was successful
+09-Jul-2026 13:21:32.247 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.register Authenticated principal [pahmed1] with authentication type [FORM]
+09-Jul-2026 13:21:32.247 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.changeSessionID Session ID changed on authentication from [70AB175336D59B8ACEF3720C6C757DD2] to [8A322266E3184D0AA7DE9878A5D34478]
+09-Jul-2026 13:21:32.247 FINER [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Redirecting to original '/favicon.ico'
+09-Jul-2026 13:21:32.248 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke User authentication failure
+09-Jul-2026 13:21:32.254 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+09-Jul-2026 13:21:32.254 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
+09-Jul-2026 13:21:32.254 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
+09-Jul-2026 13:21:32.254 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
+09-Jul-2026 13:21:32.254 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+09-Jul-2026 13:21:32.255 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+09-Jul-2026 13:21:32.255 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+09-Jul-2026 13:21:32.255 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Restore request from session '8A322266E3184D0AA7DE9878A5D34478'
+09-Jul-2026 13:21:32.255 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Proceed to restored request
+09-Jul-2026 13:21:32.255 FINER [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling accessControl()
+09-Jul-2026 13:21:32.255 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
+09-Jul-2026 13:21:32.255 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
+09-Jul-2026 13:21:32.256 FINER [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
+09-Jul-2026 13:21:32.256 FINE [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke User [pahmed1] does not have authorization to access the resource
+09-Jul-2026 13:21:32.318 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+09-Jul-2026 13:21:32.318 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke We have cached auth type FORM for principal GenericPrincipal[pahmed1()]
+09-Jul-2026 13:21:32.318 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
+09-Jul-2026 13:21:32.318 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Entire Application]' against GET /favicon.ico --> true
+09-Jul-2026 13:21:32.318 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling hasUserDataPermission()
+09-Jul-2026 13:21:32.318 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+09-Jul-2026 13:21:32.318 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling authenticate()
+09-Jul-2026 13:21:32.318 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.checkForCachedAuthentication Already authenticated [pahmed1]
+09-Jul-2026 13:21:32.318 FINER [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Calling accessControl()
+09-Jul-2026 13:21:32.318 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission   Checking roles GenericPrincipal[pahmed1()]
+09-Jul-2026 13:21:32.319 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasRole Username [pahmed1] does NOT have role [SXC_was_admins]
+09-Jul-2026 13:21:32.319 FINER [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasResourcePermission No role found:  SXC_was_admins
+09-Jul-2026 13:21:32.319 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke User [pahmed1] does not have authorization to access the resource
+
