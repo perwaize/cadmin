@@ -146,3 +146,16 @@ $searcher.Filter = "(&(objectClass=group)(cn=SXC_was_admins))"
 $searcher.PropertiesToLoad.AddRange(@("distinguishedName","member"))
 $result = $searcher.FindOne()
 $result.Properties["member"]
+
+
+
+$de = New-Object System.DirectoryServices.DirectoryEntry(
+    "LDAP://ad-ldap-app.uhc.com/dc=ms,dc=ds,dc=uhc,dc=com",
+    "wsbindtst@ms.ds.uhc.com",
+    "<the bind password from ROOT.xml>"
+)
+$searcher = New-Object System.DirectoryServices.DirectorySearcher($de)
+$searcher.Filter = "(&(objectClass=group)(member=CN=pahmed1,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com))"
+$searcher.PropertiesToLoad.Add("cn") | Out-Null
+$results = $searcher.FindAll()
+$results | ForEach-Object { $_.Properties["cn"] }
