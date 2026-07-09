@@ -159,3 +159,7 @@ $searcher.Filter = "(&(objectClass=group)(member=CN=pahmed1,CN=Users,DC=ms,DC=ds
 $searcher.PropertiesToLoad.Add("cn") | Out-Null
 $results = $searcher.FindAll()
 $results | ForEach-Object { $_.Properties["cn"] }
+
+
+org.apache.catalina.realm.JNDIRealm.level = FINEST
+org.apache.catalina.realm.JNDIRealm.handlers = 3catalina.org.apache.juli.AsyncFileHandler
