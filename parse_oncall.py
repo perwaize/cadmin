@@ -22,7 +22,9 @@ Expected spreadsheet layout ("On-Call Schedule" sheet):
     Row 3+:                 one row per week, "Date" = the Monday that
                              week starts
 
-Expected "Contacts" sheet: Name | Mobile | Location
+Expected "Contacts" sheet: Short Name | Full Name | Email | Mobile | Location
+    "Short Name" is what's used in the On-Call Schedule sheet's Primary/
+    Secondary cells, and is the lookup key into this table.
 """
 
 import json
@@ -52,7 +54,7 @@ SHIFT_COLUMNS = [
 
 
 def load_contacts(wb):
-    """Returns {name: {"mobile": ..., "location": ...}}"""
+    """Returns {short_name: {"fullName": ..., "email": ..., "mobile": ..., "location": ...}}"""
     contacts = {}
     if CONTACTS_SHEET not in wb.sheetnames:
         return contacts
@@ -61,8 +63,10 @@ def load_contacts(wb):
     for row in rows:
         if not row or not row[0]:
             continue
-        name, mobile, location = (list(row) + [None, None, None])[:3]
-        contacts[str(name).strip()] = {
+        short_name, full_name, email, mobile, location = (list(row) + [None] * 5)[:5]
+        contacts[str(short_name).strip()] = {
+            "fullName": full_name,
+            "email": email,
             "mobile": mobile,
             "location": location,
         }
@@ -93,13 +97,14 @@ def find_current_week_row(ws, today):
     return None, None
 
 
-def person(name, contacts):
-    if not name:
+def person(short_name, contacts):
+    if not short_name:
         return None
-    name = str(name).strip()
-    info = contacts.get(name, {})
+    short_name = str(short_name).strip()
+    info = contacts.get(short_name, {})
     return {
-        "name": name,
+        "name": info.get("fullName") or short_name,
+        "email": info.get("email"),
         "mobile": info.get("mobile"),
         "location": info.get("location"),
     }
