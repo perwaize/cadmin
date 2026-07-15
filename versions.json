@@ -1,0 +1,152 @@
+[
+  {
+    "category": "IBM WebSphere",
+    "rows": [
+      {
+        "product": "WebSphere v8.5.5.x",
+        "version": "8.5.5.29",
+        "downloadUrl": "https://www.ibm.com/support/pages/fix-list-ibm-websphere-application-server-v85"
+      },
+      {
+        "product": "WebSphere v9.0.5.x",
+        "version": "9.0.5.27",
+        "downloadUrl": "https://www.ibm.com/support/pages/fix-list-ibm-websphere-application-server-traditional-v9-0"
+      }
+    ]
+  },
+  {
+    "category": "Red Hat Apache HTTP",
+    "rows": [
+      {
+        "product": "Apache HTTP v2.4.x SP",
+        "version": "2.4.62 SP3",
+        "downloadUrl": "https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&product=core.service.apachehttp&version=8.1&productChanged=yes"
+      }
+    ]
+  },
+  {
+    "category": "Red Hat JBoss Web Server",
+    "rows": [
+      {
+        "product": "JWS 5.7 SP8",
+        "version": "Apache Tomcat 9.0.62-41.redhat_00020.1.el7jws",
+        "downloadUrl": "https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=patches&product=webserver&version=5.7"
+      },
+      {
+        "product": "JWS 5.8 SP6",
+        "version": "Apache Tomcat 9.0.87-12.redhat_00011.1.el7jws",
+        "downloadUrl": "https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?product=webserver&downloadType=patches&version=5.8"
+      },
+      {
+        "product": "JWS 6.1 SP3",
+        "version": "Apache Tomcat 10.1.36-8.redhat_00009.1.el8jws",
+        "downloadUrl": "https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?product=webserver&downloadType=patches&version=6.1"
+      }
+    ]
+  },
+  {
+    "category": "Red Hat OpenJDK",
+    "rows": [
+      {
+        "product": "OpenJDK 1.8",
+        "version": "1.8.0.482",
+        "downloadUrl": "https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?product=core.service.openjdk&downloadType=distributions&version="
+      },
+      {
+        "product": "OpenJDK 11",
+        "version": "11.0.25",
+        "downloadUrl": "https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?product=core.service.openjdk&downloadType=distributions&version="
+      },
+      {
+        "product": "OpenJDK 17",
+        "version": "17.0.18",
+        "downloadUrl": "https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?product=core.service.openjdk&downloadType=distributions&version="
+      },
+      {
+        "product": "OpenJDK 21",
+        "version": "21.0.9",
+        "downloadUrl": "https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?product=core.service.openjdk&downloadType=distributions&version="
+      }
+    ]
+  },
+  {
+    "category": "Red Hat JBoss EAP",
+    "rows": [
+      {
+        "product": "JBoss EAP v7.4",
+        "version": "SP23",
+        "downloadUrl": "https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&product=appplatform&version=7.4"
+      },
+      {
+        "product": "JBoss EAP v8.0",
+        "version": "SP12",
+        "downloadUrl": "https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&product=appplatform&version=8.0"
+      },
+      {
+        "product": "JBoss EAP v8.1",
+        "version": "SP5",
+        "downloadUrl": "https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&product=appplatform&version=8.1"
+      }
+    ]
+  },
+  {
+    "category": "Apache Tomcat (Upstream)",
+    "rows": [
+      {
+        "product": "Tomcat 9",
+        "version": "9.0.116",
+        "downloadUrl": "https://tomcat.apache.org/download-90.cgi"
+      },
+      {
+        "product": "Tomcat 10",
+        "version": "10.1.54",
+        "downloadUrl": "https://tomcat.apache.org/download-10.cgi"
+      },
+      {
+        "product": "Tomcat 11",
+        "version": "11.0.21",
+        "downloadUrl": "https://tomcat.apache.org/download-11.cgi"
+      }
+    ]
+  },
+  {
+    "category": "Apache HTTP Server",
+    "rows": [
+      {
+        "product": "Apache HTTPD",
+        "version": "2.4.66",
+        "downloadUrl": "https://httpd.apache.org/download.cgi"
+      }
+    ]
+  },
+  {
+    "category": "Adoptium OpenJDK",
+    "rows": [
+      {
+        "product": "OpenJDK 8",
+        "version": "1.8.0.482",
+        "downloadUrl": "https://adoptium.net/temurin/releases/?version=8&os=any&arch=any&mode=filter"
+      },
+      {
+        "product": "OpenJDK 11",
+        "version": "11.0.30",
+        "downloadUrl": "https://adoptium.net/temurin/releases/?version=11&os=any&arch=any&mode=filter"
+      },
+      {
+        "product": "OpenJDK 17",
+        "version": "17.0.18",
+        "downloadUrl": "https://adoptium.net/temurin/releases/?version=17&os=linux&arch=x64&mode=filter"
+      },
+      {
+        "product": "OpenJDK 21",
+        "version": "21.0.10",
+        "downloadUrl": "https://adoptium.net/temurin/releases/?version=21&os=linux&arch=x64&mode=filter"
+      },
+      {
+        "product": "OpenJDK 25",
+        "version": "25.0.5",
+        "downloadUrl": "https://adoptium.net/temurin/releases/?version=25&os=linux&arch=x64&mode=filter"
+      }
+    ]
+  }
+]
