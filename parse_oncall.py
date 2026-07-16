@@ -47,9 +47,12 @@ CONTACTS_SHEET = "Contacts"
 
 SHIFT_COLUMNS = [
     # (label, primary_col_index, secondary_col_index) — 0-indexed into each row tuple
+    # Order here is the display order on the site (USA, then India evening,
+    # then India early-morning) — column indices themselves are fixed by
+    # the spreadsheet's physical layout and must not change.
+    ("USA (9:00 AM - 7:00 PM CST)", 5, 6),
     ("India (7:00 PM - 2:00 AM CST)", 1, 2),
     ("India (2:00 AM - 9:00 AM CST)", 3, 4),
-    ("USA (9:00 AM - 7:00 PM CST)", 5, 6),
 ]
 
 
